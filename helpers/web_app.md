@@ -1,8 +1,5 @@
-web_app
-=======
-
 I want to create a web application
-----------------------------------
+==================================
 
 glyphicons_232_cloud@2x.png
 

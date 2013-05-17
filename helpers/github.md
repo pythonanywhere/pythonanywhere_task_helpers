@@ -1,8 +1,5 @@
-github
-======
-
 I want to clone and hack on my GitHub project
----------------------------------------------
+=============================================
 
 glyphicons_341_github@2x.png
 
