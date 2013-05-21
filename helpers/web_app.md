@@ -11,7 +11,7 @@ Python web application. You can go forward and back through the steps using the
 arrow buttons below, and you can finish at any time by clicking the cross in
 the top right.  If after closing this helper, you want to go through it again
 --- or try another one -- go to your **Account** page, by following
-the link above and to the right. 
+the link above and to the right.
 
 Click the right arrow to get started.
 
@@ -125,13 +125,13 @@ find a link in the "All done" message that says **start editing
 your new application here** - click that, and it will take you to
 a text editor where you can start changing your Flask application;
 
-> An aside: if you accidentally closed the dialog on the Web tab
-> and don't have a direct link to the editor, or if you just want
-> to explore a bit, you can get to the same place by clicking on the
-> **Files** tab next to the Web tab you clicked earlier, then
-> clicking on `mysite` in the first half of the directory
-> listing that appears, then clicking on `flask_app.py` in
-> the next page.
+*An aside: if you accidentally closed the dialog on the Web tab
+and don't have a direct link to the editor, or if you just want
+to explore a bit, you can get to the same place by clicking on the
+**Files** tab next to the Web tab you clicked earlier, then
+clicking on `mysite` in the first half of the directory
+listing that appears, then clicking on `flask_app.py` in
+the next page.*
 
 Once you're in the editor, click the right arrow below...
 
@@ -216,8 +216,8 @@ hint is for beginners, the second for experts...
 ----
 
 
-> If you're an experienced Python web developer, just hit the right
-> arrow to skip this step.
+*If you're an experienced Python web developer, just hit the right
+arrow to skip this step.*
 
 If you're a beginner, you're probably wondering what to do next
 to build a web application that does what you want.  The first step
@@ -235,28 +235,28 @@ frameworks we support.
 ----
 
 
-> If you're an experienced Python web developer, just hit the right
-> arrow to skip this step too.
+*If you're an experienced Python web developer, just hit the right
+arrow to skip this step too.*
 
 Here's a brief introduction to the three web frameworks we have
 quick setup support for:
 
 * [Django](https://www.djangoproject.com/) is probably the most popular
 framework in general. It's not necessarily the easiest to use, but there's a
-lot to it.  There's 
+lot to it.  There's
 [a Django/PythonAnywhere tutorial here](http://tutorial.pythonanywhere.com/django).
-and 
+and
 [the official Django tutorial is here](https://docs.djangoproject.com/en/dev/intro/tutorial01/)
 
 * [web2py](http://www.web2py.com/) is designed to be easy to get started, and
 has excellent features allowing you to run and develop a number of websites without
 leaving your web browser.  There's a great tutorial for web development
-beginners at 
+beginners at
 [Killer Web Development](http://killer-web-development.com/)
 which has sections on working with web2py in PythonAnywhere,
-and 
+and
 [the official book is here](http://web2py.com/book)
-(or 
+(or
 [here in Spanish](http://www.latinuxpress.com/books/drafts/web2py/)
 )
 
@@ -271,7 +271,7 @@ programmed before then it's probably not such a good idea.
 
 
 So, that's it for the web frameworks.  If you're a beginner, you
-can stop here -- just click the &times; at the top right
+can stop here -- just click the **x** at the top right
 of this helper area.  If you're an experienced Python programmer
 click the right arrow to continue.
 
@@ -309,7 +309,7 @@ imported from elsewhere.
 
 To use your framework of choice, all you need to do
 is look up how to create a WSGI application from it (for example,
-<a href="http://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/modwsgi/index.html?awesome">the contents of step 7 on this page</a>
+[the contents of step 7 on this page](http://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/modwsgi/index.html?awesome)
 would work for Pyramid), and then import it into this file.
 
 
@@ -323,6 +323,6 @@ please don't hesitate to get in touch over the forums, or privately
 through the "Send feedback" link at the top of the page.
 
 
-To close this tutorial window, just click the &times; to the top
+To close this tutorial window, just click the **x** to the top
 right.
 
