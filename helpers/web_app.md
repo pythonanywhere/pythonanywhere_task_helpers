@@ -159,18 +159,18 @@ the editor.
 
     @app.route('/')
     def hello_person():
-    return """
-        <p>Who do you want me to say "Hi" to?</p>
-        <form method="POST" action="%s"><input name="person" /><input type="submit" value="Go!" /></form>
-        """ % (url_for('greet'),)
+        return """
+            <p>Who do you want me to say "Hi" to?</p>
+            <form method="POST" action="%s"><input name="person" /><input type="submit" value="Go!" /></form>
+            """ % (url_for('greet'),)
 
     @app.route('/greet', methods=['POST'])
     def greet():
-    greeting = random.choice(["Hiya", "Hallo", "Hola", "Ola", "Salut", "Privet", "Konnichiwa", "Ni hao"])
-    return """
-        <p>%s, %s!</p>
-        <p><a href="%s">Back to start</a></p>
-        """ % (greeting, request.form["person"], url_for('hello_person'))
+        greeting = random.choice(["Hiya", "Hallo", "Hola", "Ola", "Salut", "Privet", "Konnichiwa", "Ni hao"])
+        return """
+            <p>%s, %s!</p>
+            <p><a href="%s">Back to start</a></p>
+            """ % (greeting, request.form["person"], url_for('hello_person'))
 
 Once you've copied and pasted it, hit the **Save** button at the
 top right of the editor or hit Control-S, then click the right arrow for the next
