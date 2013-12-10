@@ -43,12 +43,14 @@ Open a new **Bash** console under **Start new console** /
 **Other**.
 
 You can now clone your GitHub project by typing: `git clone
-<repo URL from GitHub>` into the console. Use the
-**https** URL if you haven't set up SSH keys on PythonAnywhere.
-(The process for setting up SSH keys here is just the same as it
-is on a Linux machine; see
+<repo URL from GitHub>` into the console. If you want to copy and
+paste the repo URL, here's
+[how to copy/paste into the console](https://www.pythonanywhere.com/wiki/CopyAndPaste).
+Use the **https** URL if you haven't set up SSH keys on PythonAnywhere;
+the process for setting up SSH keys here is just the same as it
+is on a Linux machine -- see
 [GitHub's help pages](https://help.github.com/articles/generating-ssh-keys)
-for more information).
+for more information.
 
 
 Once the clone is complete, `cd` into the newly-cloned
@@ -75,7 +77,7 @@ pretty-much like any desktop text editor. Have a look at the
 prefer, you can use VIM, Emacs or nano in a Bash console instead.
 
 When you're finished editing, you'll want to commit and push your
-changes. 
+changes.
 
 ----
 
@@ -93,7 +95,7 @@ depends on how frequently we update the service with new versions).
 
 Here you can use
 `git diff`, `git commit` and `git
-push` as you normally would. 
+push` as you normally would.
 
 If you want to change the console's name so that you can more easily
 find it from the Dashboard, click on the name above the console
