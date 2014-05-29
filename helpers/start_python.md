@@ -9,8 +9,13 @@ glyphicons_268_keyboard_wireless@2x.png
 Up here you will see instructions that will walk you through the basic use of
 PythonAnywhere and some very basic Python programming to get you started.
 
-Click the right arrow when you're ready.
+You can go forward and back through the steps using the
+arrow buttons below, and you can finish at any time by clicking the cross in
+the top right.  If after closing this helper, you want to go through it again
+--- or try another one -- go to the **Help** page, by following
+the link above and to the right.
 
+Click the right arrow when you're ready.
 
 ----
 

@@ -9,12 +9,10 @@ glyphicons_341_github@2x.png
 **Welcome to PythonAnywhere!**  Up here you will see instructions
 walking you through the process of cloning, editing and pushing a repository
 on GitHub.
-You can go forward and back through the steps using the arrow buttons
-below, and you can finish at any time by clicking the cross in the top
-right.  If
-after closing this helper, you want to go through it again -- or try
-another one -- go to your
-**Account** page, by following the link above and to the right.
+You can go forward and back through the steps using the arrow buttons below,
+and you can finish at any time by clicking the cross in the top right.  If
+after closing this helper, you want to go through it again -- or try another
+one -- go to the **Help** page, by following the link above and to the right.
 
 
 Click the right arrow to get started.
