@@ -107,6 +107,9 @@ should now be able to follow them on PythonAnywhere. Here are some of our favori
 
 There is also [a big list of python tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) on the Python wiki.
 
+If you already know some programming have a look at:
+ * [Dive into Python](http://www.diveintopython.net/)
+
 Good luck on your journey into the world of Python!
 
 ----
