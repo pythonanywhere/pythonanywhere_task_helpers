@@ -112,5 +112,3 @@ If you already know some programming have a look at:
 
 Good luck on your journey into the world of Python!
 
-----
-
