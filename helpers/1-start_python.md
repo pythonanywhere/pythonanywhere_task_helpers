@@ -21,27 +21,29 @@ Click the right arrow when you're ready.
 
 
 This page is your **Dashboard**.  It has a number of tabs (below),
-each of which contains a separate section of PythonAnywhere.  You can
+each of which contains a separate section of PythonAnywhere.  This tutorial
+will walk you through the most important ones.  You can
 get to the Dashboard from anywhere you are in PythonAnywhere using the
 link near the top right of the page, or by clicking
 the PythonAnywhere logo in the top left.
 
-
-Right now, we're on the **Consoles** tab. Here you can start new consoles of
-various flavors and you can get to consoles that you've already started.
-
+Right now, we're on the **Consoles** tab. Consoles are places where you can
+type in commands in a programming language, and get an immediate response from
+the computer. The next step will show you how to use one.
 
 ----
 
-Click on the **2.7** link just just under the **Start new console** heading.
-After a little while, you should see a console with a prompt that looks like
+Click on the **2.7** link just just under the **Start new console** heading;
+this will start Python version 2.7, which is a good version to start off with.
+After a little while, you should see a console with a "prompt" that looks like
 this:
 
     >>>
 
-This is the standard Python interactive interpreter. It's also sometimes called
-the REPL (which stands for Read, Evaluate and Print Loop). Here you can enter
-Python and it will be run immediately.
+This is the standard Python "interactive interpreter". It's also sometimes called
+the REPL (which stands for Read, Evaluate and Print Loop), or a CLI (Command
+Line Interpreter). Here you can enter
+Python and it will be run immediately.  Let's try that in the next step.
 
 ----
 
@@ -51,6 +53,9 @@ look like this
     >>> print "Hello, world"
     Hello, world
     >>>
+
+So, you told Python to print out the message "Hello, world", and it did so
+straight away.
 
 ----
 
