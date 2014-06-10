@@ -6,6 +6,7 @@ glyphicons_137_computer_service@2x.png
 ----
 
 **Welcome to PythonAnywhere!**
+
 Up here you will see instructions walking you through the process of creating a
 Python web application. You can go forward and back through the steps using the
 arrow buttons below, and you can finish at any time by clicking the cross in
@@ -19,10 +20,11 @@ Click the right arrow to get started.
 ----
 
 
-The process of deploying an app on PythonAnywhere involves two main steps:
+The process of deploying an app on PythonAnywhere involves three main steps:
 
 1. Uploading your code to PythonAnywhere
-2. Configuring your application using WSGI
+2. Setting up a *virtualenv*, if you need one
+3. Configuring your application using WSGI
 
 NB - only WSGI apps are supported, so that includes anything built with
 Django, Flask, Bottle, etc, but custom servers using, eg, Tornado, probably
@@ -41,7 +43,7 @@ web2py, and then upload your app using the web2py admin UI
 There are several different ways of getting your code onto PythonAnywhere.
 If your code is already stored on a cloud VCS system like Bitbucket, Gitlab
 or Github, then all you need to do is open a **Bash console** and do a
-`git pull`.
+`git clone`.
 
 Have a look at the 
 [help page for getting code in and out of PythonAnywhere](https://www.pythonanywhere.com/wiki/FTP)
@@ -49,6 +51,20 @@ for more info.
 
 Once you've uploaded your code, you can resume this guide.
 
+----
+
+**Creating a virtualenv**
+
+PythonAnywhere has many useful modules pre-installed, but they may not be the
+same version as the ones you need for your web app.  Check the 
+[batteries included](https://www.pythonanywhere.com/batteries_included/) page
+for details of exactly what we have installed for each Python version.
+
+If the modules you need are already there, then great!  You can skip this step.
+
+If not, you'll need to set up a virtualenv. Check out these 
+[instructions for setting a virtualenv for Django](https://www.pythonanywhere.com/wiki/VirtualEnvForNewerDjango),
+and modify the steps as appropriate for your own dependencies.
 ----
 
 **Setting up your web app using manual wsgi configuration**
@@ -67,6 +83,9 @@ For Flask, the WSGI app is usually invoked as `app = Flask(__name__)` somewhere.
 
 For bottle, the app is usually invoked something like `application = default_app()`
 
+If you're using a **virtualenv**, you'll also need to know the path to it.
+These often live at */home/myusername/.virtualenvs/virtualenvname*
+
 ----
 
 Armed with the name and location of your WSGI app, you should now go to the **Web** tab,
@@ -84,6 +103,12 @@ in there, the wsgi app is a variable called `app`, you'll want:
 
     sys.path.append('/home/mysusername/myproject')
     from myapp import app as application
+
+Finally, if you're using a virtualenv, you need two lines at the very top
+of your WSGI file to get it activated:
+
+    activate_this = '/home/myusername/.virtualenvs/virtualenvname/bin/activate_this.py'
+    execfile(activate_this, dict(__file__=activate_this))
 
 We hope that helps!  Do use the **Send feedback** button above if you run into
 any problems, we're always here to help.
