@@ -67,7 +67,7 @@ If not, you'll need to set up a virtualenv. Check out these
 and modify the steps as appropriate for your own dependencies.
 ----
 
-**Setting up your web app using manual wsgi configuration**
+**Setting up your web app using manual WSGI configuration**
 
 To get your app working, we'll need to configure a WSGI file that imports your
 app, as a Python variable.  That means you need to know two things:
@@ -77,7 +77,7 @@ app, as a Python variable.  That means you need to know two things:
 
 2. The name of the application.
 
-For Django, the wsgi app is usually stored at *projectname/projectname/wsgi.py*, and the variable name is `application`
+For Django, the WSGI app is usually stored at *projectname/projectname/wsgi.py*, and the variable name is `application`
 
 For Flask, the WSGI app is usually invoked as `app = Flask(__name__)` somewhere.  Locate this file and variable
 
@@ -96,10 +96,10 @@ comments, which provide some examples for how to get your app imported.  The mai
 steps are:
 
 1. Adding the path that your app lives in to `sys.path`
-2. Importing the wsgi app and calling it `application`.
+2. Importing the WSGI app and calling it `application`.
 
 For example, if your app lives at */home/myusername/myproject/myapp.py*, and 
-in there, the wsgi app is a variable called `app`, you'll want:
+in there, the WSGI app is a variable called `app`, you'll want:
 
     sys.path.append('/home/mysusername/myproject')
     from myapp import app as application
