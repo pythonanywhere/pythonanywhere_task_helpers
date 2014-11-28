@@ -45,7 +45,7 @@ If your code is already stored on a cloud VCS system like Bitbucket, Gitlab
 or Github, then all you need to do is open a **Bash console** and do a
 `git clone`.
 
-Have a look at the 
+Have a look at the
 [help page for getting code in and out of PythonAnywhere](https://www.pythonanywhere.com/wiki/FTP)
 for more info.
 
@@ -56,13 +56,13 @@ Once you've uploaded your code, you can resume this guide.
 **Creating a virtualenv**
 
 PythonAnywhere has many useful modules pre-installed, but they may not be the
-same version as the ones you need for your web app.  Check the 
+same version as the ones you need for your web app.  Check the
 [batteries included](https://www.pythonanywhere.com/batteries_included/) page
 for details of exactly what we have installed for each Python version.
 
 If the modules you need are already there, then great!  You can skip this step.
 
-If not, you'll need to set up a virtualenv. Check out these 
+If not, you'll need to set up a virtualenv. Check out these
 [instructions for setting a virtualenv for Django](https://www.pythonanywhere.com/wiki/VirtualEnvForNewerDjango),
 and modify the steps as appropriate for your own dependencies.
 ----
@@ -81,7 +81,7 @@ For Django, the WSGI app is usually stored at *projectname/projectname/wsgi.py*,
 
 For Flask, the WSGI app is usually invoked as `app = Flask(__name__)` somewhere.  Locate this file and variable
 
-For bottle, the app is usually invoked something like `application = default_app()`
+For Bottle, the app is usually invoked something like `application = default_app()`
 
 If you're using a **virtualenv**, you'll also need to know the path to it.
 These often live at */home/myusername/.virtualenvs/virtualenvname*
@@ -91,14 +91,15 @@ These often live at */home/myusername/.virtualenvs/virtualenvname*
 Armed with the name and location of your WSGI app, you should now go to the **Web** tab,
 click **Add new web app**, and then choose **Manual configuration**
 
-This will generate a WSGI file for you.  Click through to it, and take a look at the 
+This will generate a WSGI file for you.  Click through to it (there's a link in
+the "Code" section), and take a look at the
 comments, which provide some examples for how to get your app imported.  The main
 steps are:
 
 1. Adding the path that your app lives in to `sys.path`
 2. Importing the WSGI app and calling it `application`.
 
-For example, if your app lives at */home/myusername/myproject/myapp.py*, and 
+For example, if your app lives at */home/myusername/myproject/myapp.py*, and
 in there, the WSGI app is a variable called `app`, you'll want:
 
     sys.path.append('/home/mysusername/myproject')
