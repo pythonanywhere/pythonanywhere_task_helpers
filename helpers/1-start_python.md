@@ -80,8 +80,8 @@ To create a Python file, type `helloworld.py` into the text box that says
 
 ----
 
-Now that you have a new file, you should see it in the list of files. Click on
-its name. This will open up the editor. Type this into it:
+The code editor will open up.  This is where you can enter programs
+that will be saved in files. Type this into it:
 
     print "Hello, world. Again"
 
@@ -113,6 +113,7 @@ should now be able to follow them on PythonAnywhere. Here are some of our favori
 There is also [a big list of python tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) on the Python wiki.
 
 If you already know some programming have a look at:
+
  * [Dive into Python](http://www.diveintopython.net/)
 
 Good luck on your journey into the world of Python!
