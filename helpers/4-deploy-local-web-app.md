@@ -63,8 +63,11 @@ for details of exactly what we have installed for each Python version.
 If the modules you need are already there, then great!  You can skip this step.
 
 If not, you'll need to set up a virtualenv. Check out these
-[instructions for setting a virtualenv for Django](https://www.pythonanywhere.com/wiki/VirtualEnvForNewerDjango),
+[instructions for setting a virtualenv](https://www.pythonanywhere.com/wiki/Virtualenvs),
 and modify the steps as appropriate for your own dependencies.
+
+When you've built your virtualenv, make a note of its path. They often live at */home/myusername/.virtualenvs/virtualenvname*
+
 ----
 
 **Setting up your web app using manual WSGI configuration**
@@ -83,16 +86,15 @@ For Flask, the WSGI app is usually invoked as `app = Flask(__name__)` somewhere.
 
 For Bottle, the app is usually invoked something like `application = default_app()`
 
-If you're using a **virtualenv**, you'll also need to know the path to it.
-These often live at */home/myusername/.virtualenvs/virtualenvname*
-
 ----
 
 Armed with the name and location of your WSGI app, you should now go to the **Web** tab,
-click **Add new web app**, and then choose **Manual configuration**
+click **Add new web app**, and then choose **Manual configuration**. Click through to the end.
 
-This will generate a WSGI file for you.  Click through to it (there's a link in
-the "Code" section), and take a look at the
+* Enter the path to your virtualenv if you're using one.
+
+Next we'll want to edit the WSGI file which has been generated for you.
+Click through to it (there's a link inthe "Code" section), and take a look at the
 comments, which provide some examples for how to get your app imported.  The main
 steps are:
 
@@ -104,12 +106,6 @@ in there, the WSGI app is a variable called `app`, you'll want:
 
     sys.path.append('/home/mysusername/myproject')
     from myapp import app as application
-
-Finally, if you're using a virtualenv, you need two lines at the very top
-of your WSGI file to get it activated:
-
-    activate_this = '/home/myusername/.virtualenvs/virtualenvname/bin/activate_this.py'
-    execfile(activate_this, dict(__file__=activate_this))
 
 We hope that helps!  Do use the **Send feedback** button above if you run into
 any problems, we're always here to help.
