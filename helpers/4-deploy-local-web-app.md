@@ -91,7 +91,8 @@ For Bottle, the app is usually invoked something like `application = default_app
 Armed with the name and location of your WSGI app, you should now go to the **Web** tab,
 click **Add new web app**, and then choose **Manual configuration**. Click through to the end.
 
-* Enter the path to your virtualenv if you're using one.
+Once it's finished, you'll be shown a page with the configuration options for your website.
+If you're using a virtualenv, enter the path to it into the appropriate field near the top.
 
 Next we'll want to edit the WSGI file which has been generated for you.
 Click through to it (there's a link inthe "Code" section), and take a look at the
