@@ -48,10 +48,10 @@ and take a look at what comes up...
 
 
 The first thing to do is to choose what the domain name for
-your web app will be. If you have a Beginner (free) or a Hacker account,
+your web app will be. If you have a Beginner (free)  account,
 there's no choice, your app is hosted at *yourusername*`.pythonanywhere.com`.
-If you have a Web Developer, Startup or Custom account, then you have the option
-to specify your own domain, but also a checkbox to use a subdomain
+If you have a paid account, then you have the option
+to specify your own domain as well as a checkbox to use a subdomain
 of our site; for the purposes of the tutorial, select the
 subdomain.
 
@@ -113,7 +113,7 @@ you a little bit of extra information.  The first thing it will
 tell you is the location of your web app, at `yourusername.pythonanywhere.com`.
 All PythonAnywhere users can have a web application at an address like that; people
 with Web Developer, Startup or Custom accounts can also use their own domain names.
-If you currently have a free or Hacker account and want to upgrade
+If you currently have a free account and want to upgrade
 to one where you can use your own domain, you can do so at any time
 using the **Account** link at the top right of the page.
 
