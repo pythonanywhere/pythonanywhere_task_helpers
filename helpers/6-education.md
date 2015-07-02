@@ -38,23 +38,26 @@ Consoles are all very well, but often we want to save code to a file
 using a text editor.  PythonAnywhere has a Python-specific text editor
 built in.  Let's go check it out now.
 
-Click on the **Files tab**, and then enter *hello.py* into the input
-box that says "enter a new file name".
+Go back to the Dashboard by clicking the PythonAnywhere logo, then
+click through to the **Files tab**.
+
+Type *hello.py* into the input box that says "enter a new file name",
+and hit Enter.
 
 ----
 
 That should have opened up a text editor. Let's try using it to
 write some more Python code
 
-    from datetime import datatime
-    print("Hello, the time is {}".format(datetime.now())
+    from datetime import datetime
+    print("Hello, the time is {}".format(datetime.now()))
 
 
 You can save your file, and if you wanted to you could go back
 to a Bash console and run it from the command-line with 
 `python3 hello.py`.  But there's a shortcut right on this
 page -- click the "Save and Run" button (the black one with the three python
-chevrons, `>>>`)
+chevrons, **>>>**)
 
 (you may need to hit "allow popups" in your browser to see the new 
 console appear)
@@ -75,29 +78,32 @@ continue following these instructions
 ----
 
 In the private browsing tab, sign up for a second PythonAnywhere account.  You
-can use the same email address as for your main account if you like.
+can use the same email address as your main account if you like.
 
 Once the account has been created, click through to its **Account** page, and
 find the **Teacher** tab.  Enter your main account's username into this field,
 and hit enter.
 
-Then, as the student, go to the Files tab and start a new python file called
+----
+
+Then, still pretending to be a student in the private browsing window (hee hee),
+go to the Files tab and start a new python file called
 **studenthello.py**, with some simple code in it -- 
 
     print("Hello from student")
 
-And hit Save & Run in the student's account.
+And hit the run button.
 
 ----
 
-Now, back in your main account, hit refresh.
+Now, back in your main account, hit **refresh** in your browser.
 
 You should see a new drop-down at the top right of your dashboard, telling you
 that you're logged in as you, and offering you the option of viewing your students'
 pages.
 
-Click through to your students' pages, and you'll be able to view their console,
-and even dynamically interact with their session.
+Use it now to click through to your students' pages, and you'll be able to view
+their console, and even dynamically interact with their session.
 
 Notice that the little drop-down on your dashboard update to tell you that you're
 now viewing one of your students' pages
@@ -116,7 +122,7 @@ You can also browse your students' Files tab, and all the other tabs.
 > manually hit "refresh" if you want to see updates.
 
 
-But there's a better way to interact with your students' files -- the are 
+But there's a better way to interact with your students' files -- they are 
 directly mounted into your own files area.
 
 In your teacher account, go back to your Bash console, or open a new one
@@ -124,8 +130,10 @@ if necessary. Type `ls /home`, and you should see your own username, and your
 student's username.
 
     $ ls /home
-    myusername
-    mystudentusername
+    myusername  mystudentusername
+
+    $ ls /home/mystudentusername
+    README.txt  studenthello.py
 
 ----
 
@@ -148,8 +156,10 @@ Hit save, and go back to your Bash console.  Type this command:
 
     cp /home/myusername/week3_assignment.py /home/mystudentusername
 
-And now you can verify that your student can see that assignment too.
+And now your student has a copy of the assignment!
 
+You can verify that in the private browsing session, or by clicking
+through to them via the little dropdown in the top-right.
 
 ----
 
