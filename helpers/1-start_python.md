@@ -33,8 +33,8 @@ the computer. The next step will show you how to use one.
 
 ----
 
-Click on the **2.7** link just just under the **Start new console** heading;
-this will start Python version 2.7, which is a good version to start off with.
+Click on the **3.4** link just just under the **Start new console** heading;
+this will start Python version 3.4, which is a good version to start off with.
 After a little while, you should see a console with a "prompt" that looks like
 this:
 
@@ -47,10 +47,10 @@ Python and it will be run immediately.  Let's try that in the next step.
 
 ----
 
-Try typing `print "Hello, world"` and hitting Enter. Your console should now
+Try typing `print("Hello, world")` and hitting Enter. Your console should now
 look like this
 
-    >>> print "Hello, world"
+    >>> print("Hello, world")
     Hello, world
     >>>
 
@@ -83,7 +83,7 @@ To create a Python file, type `helloworld.py` into the text box that says
 The code editor will open up.  This is where you can enter programs
 that will be saved in files. Type this into it:
 
-    print "Hello, world. Again"
+    print("Hello, world. Again")
 
 Click "Save" at the top right to save your program and then return to your
 **Dashboard**.
@@ -95,7 +95,7 @@ link under the **Start new console** heading. Bash is a shell that allows you
 to run all sorts of programs that are installed on PythonAnywhere. In this
 case, we're going to use it to run the program you just wrote. Type
 
-    python helloworld.py
+    python3.4 helloworld.py
 
 and you should see it print out
 
