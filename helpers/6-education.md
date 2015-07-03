@@ -20,7 +20,7 @@ This page is your **Dashboard** -- your students will have one just like it.
 
 Right now, we're on the **Consoles** tab, from which you
 can launch interactive Python consoles, as well as a special type of console
-called a *Bash console*, which is PythonAnywhere's main command-line console.
+called a **Bash** console, which is PythonAnywhere's main command-line console.
 Try that now.
 
 ----
@@ -38,8 +38,8 @@ Consoles are all very well, but often we want to save code to a file
 using a text editor.  PythonAnywhere has a Python-specific text editor
 built in.  Let's go check it out now.
 
-Go back to the Dashboard by clicking the PythonAnywhere logo, then
-click through to the **Files tab**.
+Go back to the Dashboard by clicking the PythonAnywhere logo above, then
+click through to the **Files** tab.
 
 Type *hello.py* into the input box that says "enter a new file name",
 and hit Enter.
@@ -59,8 +59,8 @@ to a Bash console and run it from the command-line with
 page -- click the "Save and Run" button (the black one with the three python
 chevrons, **>>>**)
 
-(you may need to hit "allow popups" in your browser to see the new 
-console appear)
+> (you may need to hit "allow popups" in your browser, then try a second time
+> to see the new console appear)
 
 ----
 
@@ -98,15 +98,19 @@ And hit the run button.
 
 Now, back in your main account, hit **refresh** in your browser.
 
-You should see a new drop-down at the top right of your dashboard, telling you
-that you're logged in as you, and offering you the option of viewing your students'
-pages.
+You should see a line at the top right of your dashboard, telling you
+that you're logged in as you, and offering you a drop-down which will
+let you switch to viewing your students' pages.
 
-Use it now to click through to your students' pages, and you'll be able to view
-their console, and even dynamically interact with their session.
+Use it now to click through to your students' dashboard. From there you'll be
+able to see all their pages.  Try clicking through to their console, and you'll
+see you can even type into it!
 
-Notice that the little drop-down on your dashboard update to tell you that you're
-now viewing one of your students' pages
+Notice that the little drop-down on your dashboard updates to tell you that you're
+now viewing one of your students' pages.
+
+You can return to your own dashboard by clicking your own username, or the main
+PythonAnywhere logo.
 
 ----
 
@@ -128,6 +132,8 @@ directly mounted into your own files area.
 In your teacher account, go back to your Bash console, or open a new one
 if necessary. Type `ls /home`, and you should see your own username, and your
 student's username.
+
+    >>> # press ctrl-d if you're still in a Python prompt
 
     $ ls /home
     myusername  mystudentusername
@@ -173,8 +179,5 @@ to send us feedback and suggestions for improvements and new features!  We'd
 love to hear from you.
 
 [support@pythonanywhere.com](mailto:support@pythonanywhere.com)
-
-
-----
 
 
