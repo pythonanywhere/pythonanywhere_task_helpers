@@ -20,8 +20,10 @@ shiny new Django 1.7, you'll need to use a virtualenv.
 
 * `manage.py runserver` and *localhost:8000* won't work on PythonAnywhere,
   because our console servers aren't accessible from the outside world.
-  Instead, go to the **Web** tab and start a new web app, which will then
-  be live at *your-username.pythonanywhere.com*.
+
+* Instead, go to the **Web** tab and start a new web app using **manual configuration**.
+  Click through to the link to **edit your wsgi file** and uncomment the section for
+  Django.  From then on, your Django site will be live at *your-username.pythonanywhere.com*.
 
 * You'll need to hit the **Reload** button to reload your web app, whenever you
   want to see the effects of code changes on your site. 
