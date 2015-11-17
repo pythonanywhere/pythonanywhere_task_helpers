@@ -174,7 +174,7 @@ distribute and later collect assignments, to help students to exchange code
 with each other, and no doubt all sorts of other stuff that we haven't 
 anticipated.
 
-Go check out [the wiki](wiki/Education) for more information, and be sure
+Go check out [the wiki](https://help.pythonanywhere.com/pages/Education) for more information, and be sure
 to send us feedback and suggestions for improvements and new features!  We'd
 love to hear from you.
 
