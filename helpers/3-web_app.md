@@ -254,9 +254,12 @@ quick setup support for:
 * [Django](https://www.djangoproject.com/) is probably the most popular
 framework in general. It's not necessarily the easiest to use, but there's a
 lot to it.  There's
-[a short Django/PythonAnywhere tutorial here](https://www.pythonanywhere.com/wiki/DjangoTutorial).
+[a short Django/PythonAnywhere tutorial here](https://www.pythonanywhere.com/wiki/DjangoTutorial),
 and we also have
-[hints on how to follow the official Django tutorial using PythonAnywhere](https://www.pythonanywhere.com/wiki/FollowingTheDjangoTutorial)
+[hints on how to follow the official Django tutorial using PythonAnywhere](https://www.pythonanywhere.com/wiki/FollowingTheDjangoTutorial).
+If you'd prefer an independent tutorial, we highly recommend
+[Django Girls](http://tutorial.djangogirls.org) and
+[Tango with Django](http://www.tangowithdjango.com/).
 
 * [web2py](http://www.web2py.com/) is designed to be easy to get started, and
 has excellent features allowing you to run and develop a number of websites without
@@ -278,7 +281,8 @@ understanding, though, that this is simplicity in terms of what a programmer
 needs to learn to get going, not simplicity in the sense of "easy for a
 beginner to learn". If you're an experienced programmer and just learning web
 development or Python then either of these could be a great choice, but if you've never
-programmed before then it's probably not such a good idea.
+programmed before then it's probably not such a good idea.  We've got
+[a simple introduction to using Flask on PythonAnywhere here](http://blog.pythonanywhere.com/121/).
 
 
 So, that's it for the web frameworks.  If you're a beginner, you
