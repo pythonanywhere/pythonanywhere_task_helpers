@@ -30,7 +30,7 @@ Right
 now, we're on the **Consoles** tab, and Web applications are
 (naturally enough) configured on the **Web** tab.
 To go there, click the tab below, between
-'Files' and 'Schedule', then click the right arrow to move on to the
+'Files' and 'Tasks', then click the right arrow to move on to the
 next step.
 
 
