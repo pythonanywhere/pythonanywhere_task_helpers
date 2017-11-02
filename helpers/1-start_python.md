@@ -33,8 +33,8 @@ the computer. The next step will show you how to use one.
 
 ----
 
-Click on the **3.4** link just just under the **Start new console** heading;
-this will start Python version 3.4, which is a good version to start off with.
+Click on the **3.6** link just just under the **Start new console** heading;
+this will start Python version 3.6, which is a good version to start off with.
 After a little while, you should see a console with a "prompt" that looks like
 this:
 
@@ -85,21 +85,9 @@ that will be saved in files. Type this into it:
 
     print("Hello, world. Again")
 
-Click "Save" at the top right to save your program and then return to your
-**Dashboard**.
-
-----
-
-Now we're going to start a different kind of console. Click on the **Bash**
-link under the **Start new console** heading. Bash is a shell that allows you
-to run all sorts of programs that are installed on PythonAnywhere. In this
-case, we're going to use it to run the program you just wrote. Type
-
-    python3.4 helloworld.py
-
-and you should see it print out
-
-    Hello, world. Again.
+Click "Run" at the top right to save and run your program.  A console should appear
+beneath the editor, running your code.  Now  you can make changes, and hit 
+"Run" again at any time to see what happened.
 
 ----
 
