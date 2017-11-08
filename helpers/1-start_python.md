@@ -20,16 +20,13 @@ Click the right arrow when you're ready.
 ----
 
 
-This page is your **Dashboard**.  It has a number of tabs (below),
-each of which contains a separate section of PythonAnywhere.  This tutorial
-will walk you through the most important ones.  You can
-get to the Dashboard from anywhere you are in PythonAnywhere using the
-link near the top right of the page, or by clicking
-the PythonAnywhere logo in the top left.
-
-Right now, we're on the **Consoles** tab. Consoles are places where you can
-type in commands in a programming language, and get an immediate response from
-the computer. The next step will show you how to use one.
+This page is your **Dashboard**.  It has an overview of all your stuff on 
+PythonAnywhere, but you can also access more functionality via the
+individual tabs named "Consoles","Files", and so on, above.  We'll have
+a look at the most important ones shortly.
+<p>
+You can get to the Dashboard from anywhere you are in PythonAnywhere using the
+link near the top right of the page, or by clicking the PythonAnywhere logo in the top left.
 
 ----
 
@@ -95,14 +92,14 @@ We've now walked you through the very basics of using PythonAnywhere to learn
 Python. There are a number of extremely good tutorials on the web and you
 should now be able to follow them on PythonAnywhere. Here are some of our favorites:
 
- * [The Official Python Tutorial](https://docs.python.org/2/tutorial/) (You can skip sections 1 and 2)
- * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/) (Where there is a choice, follow the instructions for Linux)
+ * [The Official Python Tutorial](https://docs.python.org/3/tutorial/) (You can skip sections 1 and 2)
+ * [Think Python](http://greenteapress.com/wp/think-python-2e/) 
 
 There is also [a big list of python tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) on the Python wiki.
 
 If you already know some programming have a look at:
 
- * [Dive into Python](http://www.diveintopython.net/)
+ * [Dive into Python](http://www.diveintopython3.net/)
 
 Good luck on your journey into the world of Python!
 
