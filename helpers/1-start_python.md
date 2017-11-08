@@ -20,21 +20,18 @@ Click the right arrow when you're ready.
 ----
 
 
-This page is your **Dashboard**.  It has a number of tabs (below),
-each of which contains a separate section of PythonAnywhere.  This tutorial
-will walk you through the most important ones.  You can
-get to the Dashboard from anywhere you are in PythonAnywhere using the
-link near the top right of the page, or by clicking
-the PythonAnywhere logo in the top left.
-
-Right now, we're on the **Consoles** tab. Consoles are places where you can
-type in commands in a programming language, and get an immediate response from
-the computer. The next step will show you how to use one.
+This page is your **Dashboard**.  It has an overview of all your stuff on 
+PythonAnywhere, but you can also access more functionality via the
+individual tabs named "Consoles","Files", and so on, above.  We'll have
+a look at the most important ones shortly.
+<p>
+You can get to the Dashboard from anywhere you are in PythonAnywhere using the
+link near the top right of the page, or by clicking the PythonAnywhere logo in the top left.
 
 ----
 
-Click on the **3.4** link just just under the **Start new console** heading;
-this will start Python version 3.4, which is a good version to start off with.
+Click on the **3.6** link just just under the **Start new console** heading;
+this will start Python version 3.6, which is a good version to start off with.
 After a little while, you should see a console with a "prompt" that looks like
 this:
 
@@ -85,21 +82,9 @@ that will be saved in files. Type this into it:
 
     print("Hello, world. Again")
 
-Click "Save" at the top right to save your program and then return to your
-**Dashboard**.
-
-----
-
-Now we're going to start a different kind of console. Click on the **Bash**
-link under the **Start new console** heading. Bash is a shell that allows you
-to run all sorts of programs that are installed on PythonAnywhere. In this
-case, we're going to use it to run the program you just wrote. Type
-
-    python3.4 helloworld.py
-
-and you should see it print out
-
-    Hello, world. Again.
+Click "Run" at the top right to save and run your program.  A console should appear
+beneath the editor, running your code.  Now  you can make changes, and hit 
+"Run" again at any time to see what happened.
 
 ----
 
@@ -107,14 +92,14 @@ We've now walked you through the very basics of using PythonAnywhere to learn
 Python. There are a number of extremely good tutorials on the web and you
 should now be able to follow them on PythonAnywhere. Here are some of our favorites:
 
- * [The Official Python Tutorial](https://docs.python.org/2/tutorial/) (You can skip sections 1 and 2)
- * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/) (Where there is a choice, follow the instructions for Linux)
+ * [The Official Python Tutorial](https://docs.python.org/3/tutorial/) (You can skip sections 1 and 2)
+ * [Think Python](http://greenteapress.com/wp/think-python-2e/) 
 
 There is also [a big list of python tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) on the Python wiki.
 
 If you already know some programming have a look at:
 
- * [Dive into Python](http://www.diveintopython.net/)
+ * [Dive into Python](http://www.diveintopython3.net/)
 
 Good luck on your journey into the world of Python!
 
