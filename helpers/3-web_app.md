@@ -88,7 +88,7 @@ hit the right arrow below to go to the next step.
 
 
 The next choice is which version of Python (and its associated version of
-Flask) you want to use.  For this tutorial we'll use Python 3.4.  Click the
+Flask) you want to use.  For this tutorial we'll use Python 3.6.  Click the
 link for it, then click the right arrow for the next step.
 
 
