@@ -5,38 +5,39 @@ glyphicons_232_cloud@2x.png
 
 ----
 
+### Creating A 'Hello World' Web App (1 of 10)
+
 **Welcome to PythonAnywhere!**
+
 Up here you will see instructions walking you through the process of creating a
 Python web application. You can go forward and back through the steps using the
 arrow buttons below, and you can finish at any time by clicking the cross in
 the top right.  If after closing this helper, you want to go through it again
---- or try another one -- go to the **Help** page, by following
-the link above and to the right.
+--- or try another one -- go to the **Help** page, by following the link above
+and to the right.
 
 Click the right arrow to get started.
 
 
 ----
 
+### Creating A 'Hello World' Web App (2 of 10)
 
-This page is your **Dashboard**.  It has a number of tabs (below),
-each of which contains a separate section of PythonAnywhere.  You can
-get to the Dashboard from anywhere you are in PythonAnywhere using the
-link near the top right of the page, or by clicking
-the PythonAnywhere logo in the top left.
+This page is your **Dashboard**.  It has a number of tabs (below), each of
+which contains a separate section of PythonAnywhere.  You can get to the
+Dashboard from anywhere you are in PythonAnywhere by clicking the
+PythonAnywhere logo in the top left.
 
 
-Right
-now, we're on the **Consoles** tab, and Web applications are
-(naturally enough) configured on the **Web** tab.
-To go there, click the tab below, between
-'Files' and 'Tasks', then click the right arrow to move on to the
-next step.
+Web applications are (naturally enough) configured on the **Web** tab. To go
+there, click the tab above, between 'Files' and 'Tasks', then click the right
+arrow to move on to the next step.
 
 
 
 ----
 
+### Creating A 'Hello World' Web App (3 of 10)
 
 
 The Web tab lists your web apps and shows their configuration.
@@ -46,6 +47,9 @@ and take a look at what comes up...
 ----
 
 
+### Creating A 'Hello World' Web App (4 of 10)
+
+**New Web App Wizard**
 
 The first thing to do is to choose what the domain name for
 your web app will be. If you have a Beginner (free)  account,
@@ -63,6 +67,9 @@ Now, click **Next** to continue.
 ----
 
 
+### Creating A 'Hello World' Web App (4 of 10)
+
+**New Web App Wizard**
 
 The next thing we need to do to create a web app is to choose a Web
 framework -- that is, the specific Python system that will run
@@ -86,6 +93,9 @@ hit the right arrow below to go to the next step.
 ----
 
 
+### Creating A 'Hello World' Web App (4 of 10)
+
+**New Web App Wizard**
 
 The next choice is which version of Python (and its associated version of
 Flask) you want to use.  For this tutorial we'll use Python 3.6.  Click the
@@ -96,6 +106,9 @@ link for it, then click the right arrow for the next step.
 ----
 
 
+### Creating A 'Hello World' Web App (4 of 10)
+
+**New Web App Wizard**
 
 Next, we need to tell PythonAnywhere where to put the main file for
 your Flask project.
@@ -106,147 +119,90 @@ in the dialog, and move on to the next step.
 ----
 
 
+### Creating A 'Hello World' Web App (5 of 10)
 
-After a brief pause while PythonAnywhere configures your Flask web
-application, you will see a message saying **All done!** and giving
-you a little bit of extra information.  The first thing it will
-tell you is the location of your web app, at `yourusername.pythonanywhere.com`.
-All PythonAnywhere users can have a web application at an address like that; people
-with Web Developer, Startup or Custom accounts can also use their own domain names.
-If you currently have a free account and want to upgrade
-to one where you can use your own domain, you can do so at any time
-using the **Account** link at the top right of the page.
+After a brief pause while PythonAnywhere configures your Flask web application,
+you will see a message saying **All done!** and giving you a little bit of
+extra information.
 
 
-Anyway, for now, let's check your new Flask web
-application!  Open the link in a new browser tab or window;
-once you've taken a look, come back here and click the right arrow
-below to go on to the next step.
+The first thing it will tell you is the location of your web app, at
+`yourusername.pythonanywhere.com`. All PythonAnywhere users can have a web
+application at an address like that; people with Web Developer, Startup or
+Custom accounts can also use their own domain names. If you currently have a
+free account and want to upgrade to one where you can use your own domain, you
+can do so at any time using the **Account** link at the top right of the page.
+
+
+Anyway, for now, let's go to your webapp's url to check out your new Flask web
+application!  You can do this by clicking on the url link below, or by typing
+the url directly into a new browser tab or window.
+
+Once you've taken a look, come back here and click the right arrow below to go
+on to the next step.
 
 
 ----
 
 
+### Creating A 'Hello World' Web App (6 of 10)
 
-OK so it's just a page that says "Hello from Flask!" --
-let's see if we can make it a little more interesting. You'll
-find a link in the "All done" message that says **start editing
-your new application here** - click that, and it will take you to
-a text editor where you can start changing your Flask application;
+OK so it's just a page that says "Hello from Flask!" -- let's see if we can
+change your code to make it a little more interesting.
 
-*An aside: if you accidentally closed the dialog on the Web tab
-and don't have a direct link to the editor, or if you just want
-to explore a bit, you can get to the same place by clicking on the
-**Files** tab next to the Web tab you clicked earlier, then
-clicking on `mysite` in the first half of the directory
-listing that appears, then clicking on `flask_app.py` in
-the next page.*
+Scroll down and you will see a Code section where you can specify the path to
+your webapp's source code. Click on the "go to directory" button and this will
+take you to the relevant directory in your **Files** tab. Then click on
+`flask_app.py` in the list of files to edit it.
 
 Once you're in the editor, click the right arrow below...
 
-
 ----
 
 
+### Creating A 'Hello World' Web App (7 of 10)
 
-If all is well, you should now see the code for the super-simple
-Flask app that has been generated for you in an editor window at the
-bottom of the screen.  As you'd expect for
-a super-simple app, it's super-simple code.  Let's make it a tiny
-bit more complicated.  We won't try to teach you how to use
-Flask here, so just copy and paste the code on the next page into
-the editor.
+You should now see the code for the super-simple Flask app that has been
+generated for you in an editor window at the bottom of the screen.  As you'd
+expect for a super-simple app, it's super-simple code.  Why not change the
+greeting string from `'Hello from Flask!'` to something else?
+
+You will notice that your changes have not shown up on your website yet. To get
+it to show up you need to do two things:
+
+1. Save the changes you made by hitting the **Save** button at the top or hit
+   Control-S
+2. Reload your webapp by clicking on the spinner button at the top (with a
+   mouseover saying **Reload your-username.pythonanywhere.com**) PythonAnywhere
+   to reload it. (You can also reload your web app from the "Web" tab, but it's
+   more convenient to do it from here right now :-)
 
 ----
 
+### Creating A 'Hello World' Web App (8 of 10)
 
-    from flask import Flask, request, url_for
-    import random
 
-    app = Flask(__name__)
-    app.secret_key = 'This is really unique and secret'
-
-    @app.route('/')
-    def hello_person():
-        return """
-            <p>Who do you want me to say "Hi" to?</p>
-            <form method="POST" action="%s"><input name="person" /><input type="submit" value="Go!" /></form>
-            """ % (url_for('greet'),)
-
-    @app.route('/greet', methods=['POST'])
-    def greet():
-        greeting = random.choice(["Hiya", "Hallo", "Hola", "Ola", "Salut", "Privet", "Konnichiwa", "Ni hao"])
-        return """
-            <p>%s, %s!</p>
-            <p><a href="%s">Back to start</a></p>
-            """ % (greeting, request.form["person"], url_for('hello_person'))
-
-Once you've copied and pasted it, hit the **Save** button at the
-top right of the editor or hit Control-S, then click the right arrow for the next
-step.
+Go check out your new changes! Congratulations, you've just written your first
+PythonAnywhere web application!  There are just a couple of extra web app
+related tips we want to give you in this tutorial, and then you're ready to go.
+The first hint is for beginners, the second for experts...
 
 
 ----
 
-
-
-Now that you've changed your web application, you need to tell
-PythonAnywhere to reload it.  Click the **Reload your-username.pythonanywhere.com** button to the right
-of the **Save** button.
-
-(You can also reload your web app from the "Web" tab, but it's more convenient
-to do it from here right now :-)
-
-A small animated "spinner" icon will appear to tell you that PythonAnywhere is
-reloading the app; wait for it to disappear, then click the right arrow for the next step...
-
-
-----
-
-
-
-Now that your new web application has been reloaded, let's take a look
-at it!  Go back to your web page in the tab you opened earlier (or a new one
-if you closed it), try out the app, then come back
-here and click the right arrow for the next step.
-
-
-----
-
-
-
-Congratulations, you've just written your first PythonAnywhere
-web application!  There are just a couple of extra things we'll
-show you in this tutorial, and then you're ready to go.  The first
-hint is for beginners, the second for experts...
-
-
-----
-
+### Creating A 'Hello World' Web App (9 of 10)
 
 *If you're an experienced Python web developer, just hit the right
-arrow to skip this step.*
+arrow to skip this.*
 
-If you're a beginner, you're probably wondering what to do next
-to build a web application that does what you want.  The first step
-is to pick a web framework. To do that, if you don't have a Web Developer,
-Startup or Custom account, you'll need to **Delete**
-the web app we've just built on the "Web" tab (click the "Dashboard" link at the
-top left at you can click through to there), and go through the "Add a new web app"
-wizard again to create a new one.  If you do have an account that supports custom
-domains,
-you can just create a new web app on a different domain.
-
-
-Click the right arrow to read a bit more about some of the web
-frameworks we support.
-
-
-----
-
-
-*If you're an experienced Python web developer, just hit the right
-arrow to skip this step too.*
+If you're a beginner, you're probably wondering what to do next to build a web
+application that does what you want.  The first step is to pick a web
+framework. To do that, if you don't have a Web Developer, Startup or Custom
+account, you'll need to **Delete** the web app we've just built on the "Web"
+tab (click the "Dashboard" link at the top left at you can click through to
+there), and go through the "Add a new web app" wizard again to create a new
+one.  If you do have an account that supports custom domains, you can just
+create a new web app on a different domain.
 
 Here's a brief introduction to the four web frameworks we have
 quick setup support for:
@@ -285,47 +241,37 @@ programmed before then it's probably not such a good idea.  We've got
 [a simple introduction to using Flask on PythonAnywhere here](http://blog.pythonanywhere.com/121/).
 
 
-So, that's it for the web frameworks.  If you're a beginner, you
-can stop here -- just click the **x** at the top right
-of this helper area.  If you're an experienced Python programmer
-click the right arrow to continue.
-
 ----
 
 
+### Creating A 'Hello World' Web App (10 of 10)
 
-If you're an experienced Python developer, then you probably already
-have a favourite web framework.  If it's Django, web2py, Bottle or Flask,
-you're in luck!  Just click and get going.  However,
-if you like a different one, don't despair.  Pretty much every
-Python web framework we're aware of is installed on PythonAnywhere,
-we've just not written a quick setup for all of them yet.  (The only
-exceptions to that are the ones that don't support WSGI, like Tornado.
+If you're an experienced Python developer, then you probably already have a
+favourite web framework.  If it's Django, web2py, Bottle or Flask, you're in
+luck!  Just click and get going.  However, if you like a different one, don't
+despair.  Pretty much every Python web framework we're aware of is installed on
+PythonAnywhere, we've just not written a quick setup for all of them yet.  (The
+only exceptions to that are the ones that don't support WSGI, like Tornado.
 We're working on that.)
 
 
-
 The mention of WSGI above has probably given you a hint as to where this is
-going.  Using a web framework that we don't have a quick setup for
-involves doing a little bit of WSGI configuration.  You'll need to choose
-the **Manual configuration** option in the wizard, and then go and
-edit a WSGI config file. If you try that now, you'll find it generates a
-default WSGI file for you.  Go to the "Web" tab (via the Dashboard link), delete
-the Flask app we just created, and run the "Add a new web app" wizard again.
+going.  Using a web framework that we don't have a quick setup for involves
+doing a little bit of WSGI configuration.  You'll need to choose the **Manual
+configuration** option in the wizard, and then go and edit a WSGI config file.
+If you try that now, you'll find it generates a default WSGI file for you.  Go
+to the "Web" tab (via the Dashboard link), delete the Flask app we just
+created, and run the "Add a new web app" wizard again.
 
 
-----
-
-
-
-When you get to the "All Done" page, click through to view the WSGI configuration
-file (in the "Code" section). The main thing to note is that the file needs to define
-a global variable called `application`.  This can be
+When you get to the "All Done" page, click through to view the WSGI
+configuration file (in the "Code" section). The main thing to note is that the
+file needs to define a global variable called `application`.  This can be
 imported from elsewhere.
 
-To use your framework of choice, all you need to do
-is look up how to create a WSGI application from it (for example,
-[the contents of step 7 on this page](http://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/modwsgi/index.html?awesome)
+To use your framework of choice, all you need to do is look up how to create a
+WSGI application from it (for example, [the contents of step 7 on this
+page](http://docs.pylonsproject.org/projects/pyramid/en/latest/tutorials/modwsgi/index.html?awesome)
 would work for Pyramid), and then import it into this file.
 
 
@@ -333,12 +279,11 @@ would work for Pyramid), and then import it into this file.
 
 
 
-So, that's it!  Thank you taking the time to following this tutorial,
-and if you have any questions or comments about PythonAnywhere,
-please don't hesitate to get in touch over the forums, or privately
-through the "Send feedback" link at the top of the page.
+So, that's it!  Thank you for taking the time to following this tutorial, and
+if you have any questions or comments about PythonAnywhere, please don't
+hesitate to get in touch over the forums, or privately through the "Send
+feedback" link at the top of the page.
 
 
-To close this tutorial window, just click the **x** to the top
-right.
+To close this tutorial window, just click the **x** to the top right.
 
