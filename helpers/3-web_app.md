@@ -23,15 +23,16 @@ Click the right arrow to get started.
 
 ### Creating A 'Hello World' Web App (Part 2 of 10)
 
-This page is your **Dashboard**.  It has a number of tabs (below), each of
-which contains a separate section of PythonAnywhere.  You can get to the
-Dashboard from anywhere you are in PythonAnywhere by clicking the
-PythonAnywhere logo in the top left.
+This page is your **Dashboard**.  It has an overview of all your stuff on
+PythonAnywhere, but you can also access more functionality via the
+individual links named "Consoles","Files", and so on, above and to the right.
 
+You can get to the Dashboard from anywhere you are in PythonAnywhere
+by clicking the PythonAnywhere logo in the top left.
 
-Web applications are (naturally enough) configured on the **Web** tab. To go
-there, click the tab above, between 'Files' and 'Tasks', then click the right
-arrow to move on to the next step.
+Web applications are (naturally enough) configured the **Web** section. To go
+there, click the "Open Web tab" button in the "All Web apps" section below,
+then click the right arrow to move on to the next step.
 
 
 
@@ -164,8 +165,9 @@ Once you're in the editor, click the right arrow below...
 
 You should now see the code for the super-simple Flask app that has been
 generated for you in an editor window at the bottom of the screen.  As you'd
-expect for a super-simple app, it's super-simple code.  Why not change the
-greeting string from `'Hello from Flask!'` to something else?
+expect for a super-simple app, it's super-simple code.  Try changing the
+greeting string from `'Hello from Flask!'` to something else, then take a look
+at the site.
 
 You will notice that your changes have not shown up on your website yet. To get
 it to show up you need to do two things:

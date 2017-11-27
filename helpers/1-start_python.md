@@ -22,11 +22,11 @@ Click the right arrow when you're ready.
 
 This page is your **Dashboard**.  It has an overview of all your stuff on
 PythonAnywhere, but you can also access more functionality via the
-individual tabs named "Consoles","Files", and so on, above.  We'll have
+individual links named "Consoles","Files", and so on, above.  We'll have
 a look at the most important ones shortly.
 
-You can get to the Dashboard from anywhere you are in PythonAnywhere using the
-link near the top right of the page, or by clicking the PythonAnywhere logo in the top left.
+You can get to the Dashboard from anywhere you are in PythonAnywhere
+by clicking the PythonAnywhere logo in the top left.
 
 ----
 
