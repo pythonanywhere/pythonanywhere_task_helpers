@@ -90,7 +90,7 @@ and hit enter.
 
 Then, still pretending to be a student in the private browsing window (hee hee),
 go to the Files tab and start a new python file called
-**studenthello.py**, with some simple code in it -- 
+**studenthello.py**, with some simple code in it --
 
     print("Hello from student")
 
@@ -105,14 +105,12 @@ that you're logged in as you, and offering you a drop-down which will
 let you switch to viewing your students' pages.
 
 Use it now to click through to your students' dashboard. From there you'll be
-able to see all their pages.  Try clicking through to their console, and you'll
+able to see all their pages.  Go to the "Consoles" tab using the button near the
+top right, and then click on their console, and you'll
 see you can even type into it!
 
 Notice that the little drop-down on your dashboard updates to tell you that you're
 now viewing one of your students' pages.
-
-You can return to your own dashboard by clicking your own username, or the main
-PythonAnywhere logo.
 
 ----
 
@@ -121,17 +119,19 @@ the private browsing session, and seeing it appear in their console.
 
 ----
 
-You can also browse your students' Files tab, and all the other tabs.  
+You can also browse your students' Files tab, and all the other tabs.
 
 > Note that, while console sessions update dynamically, file editor sessions
 > do not -- you can't see what the other person is typing, and you have to
 > manually hit "refresh" if you want to see updates.
 
 
-But there's a better way to interact with your students' files -- they are 
+But there's a better way to interact with your students' files -- they are
 directly mounted into your own files area.
 
-In your teacher account, go back to your Bash console, or open a new one
+You can return to your own dashboard by clicking the main
+PythonAnywhere logo, or by selecting your username from the dropdown in the
+dark line at the top.  Once you're on your dashboard, go back to your Bash console, or open a new one
 if necessary. Type `ls /home`, and you should see your own username, and your
 student's username.
 
@@ -147,7 +147,7 @@ student's username.
 
 Let's imagine we want to create a programming assignment, and distribute
 it to your students.  In the teacher account, go to the Files menu, and
-create a new file called *week3_assignment.py*.  Give it the following 
+create a new file called *week3_assignment.py*.  Give it the following
 contents:
 
 
@@ -157,7 +157,7 @@ contents:
 
     def say_hello(name):
         # adjust the next step so that, if someone calls the function with "Xerxes", the function prints "Hello, Xerxes"
-        message = "?"  
+        message = "?"
         print(message)
 
 Hit save, and go back to your Bash console.  Type this command:
@@ -167,13 +167,13 @@ Hit save, and go back to your Bash console.  Type this command:
 And now your student has a copy of the assignment!
 
 You can verify that in the private browsing session, or by clicking
-through to them via the little dropdown in the top-right.
+through to them via the dropdown at the top of the page.
 
 ----
 
 You can use the fact that you have full access to your students accounts to
 distribute and later collect assignments, to help students to exchange code
-with each other, and no doubt all sorts of other stuff that we haven't 
+with each other, and no doubt all sorts of other stuff that we haven't
 anticipated.
 
 Go check out [the wiki](https://help.pythonanywhere.com/pages/Education) for more information, and be sure
