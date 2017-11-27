@@ -5,6 +5,8 @@ glyphicons_137_computer_service@2x.png
 
 ----
 
+### Deploying A Local Web App (Part 1 of 7)
+
 **Welcome to PythonAnywhere!**
 
 Up here you will see instructions walking you through the process of creating a
@@ -19,6 +21,7 @@ Click the right arrow to get started.
 
 ----
 
+### Deploying A Local Web App (Part 2 of 7)
 
 The process of deploying an app on PythonAnywhere involves three main steps:
 
@@ -32,11 +35,15 @@ won't work.
 
 ----
 
+### Deploying A Local Web App (Part 3 of 7)
+
 Another note:  If you're using **Web2py**, you can skip the rest of this
 guide.  Instead, go to the **Web** tab, click **Add new web app**, choose
 web2py, and then upload your app using the web2py admin UI
 
 ----
+
+### Deploying A Local Web App (Part 4 of 7)
 
 **Uploading your code**
 
@@ -52,6 +59,7 @@ for more info.
 Once you've uploaded your code, you can resume this guide.
 
 ----
+### Deploying A Local Web App (Part 5 of 7)
 
 **Creating a virtualenv**
 
@@ -69,6 +77,7 @@ and modify the steps as appropriate for your own dependencies.
 When you've built your virtualenv, make a note of its path. They often live at */home/myusername/.virtualenvs/virtualenvname*
 
 ----
+### Deploying A Local Web App (Part 6 of 7)
 
 **Setting up your web app using manual WSGI configuration**
 
@@ -88,6 +97,7 @@ For Bottle, the app is usually invoked something like `application = default_app
 
 ----
 
+### Deploying A Local Web App (Part 7 of 7)
 Armed with the name and location of your WSGI app, you should now go to the **Web** tab,
 click **Add new web app**, and then choose **Manual configuration**. Click through to the end.
 

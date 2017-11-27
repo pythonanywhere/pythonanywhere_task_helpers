@@ -5,7 +5,7 @@ glyphicons_232_cloud@2x.png
 
 ----
 
-### Creating A 'Hello World' Web App (1 of 10)
+### Creating A 'Hello World' Web App (Part 1 of 10)
 
 **Welcome to PythonAnywhere!**
 
@@ -21,7 +21,7 @@ Click the right arrow to get started.
 
 ----
 
-### Creating A 'Hello World' Web App (2 of 10)
+### Creating A 'Hello World' Web App (Part 2 of 10)
 
 This page is your **Dashboard**.  It has a number of tabs (below), each of
 which contains a separate section of PythonAnywhere.  You can get to the
@@ -37,7 +37,7 @@ arrow to move on to the next step.
 
 ----
 
-### Creating A 'Hello World' Web App (3 of 10)
+### Creating A 'Hello World' Web App (Part 3 of 10)
 
 
 The Web tab lists your web apps and shows their configuration.
@@ -47,7 +47,7 @@ and take a look at what comes up...
 ----
 
 
-### Creating A 'Hello World' Web App (4 of 10)
+### Creating A 'Hello World' Web App (Part 4 of 10)
 
 **New Web App Wizard**
 
@@ -67,7 +67,7 @@ Now, click **Next** to continue.
 ----
 
 
-### Creating A 'Hello World' Web App (4 of 10)
+### Creating A 'Hello World' Web App (Part 4 of 10)
 
 **New Web App Wizard**
 
@@ -93,7 +93,7 @@ hit the right arrow below to go to the next step.
 ----
 
 
-### Creating A 'Hello World' Web App (4 of 10)
+### Creating A 'Hello World' Web App (Part 4 of 10)
 
 **New Web App Wizard**
 
@@ -106,7 +106,7 @@ link for it, then click the right arrow for the next step.
 ----
 
 
-### Creating A 'Hello World' Web App (4 of 10)
+### Creating A 'Hello World' Web App (Part 4 of 10)
 
 **New Web App Wizard**
 
@@ -119,7 +119,7 @@ in the dialog, and move on to the next step.
 ----
 
 
-### Creating A 'Hello World' Web App (5 of 10)
+### Creating A 'Hello World' Web App (Part 5 of 10)
 
 After a brief pause while PythonAnywhere configures your Flask web application,
 you will see a message saying **All done!** and giving you a little bit of
@@ -145,7 +145,7 @@ on to the next step.
 ----
 
 
-### Creating A 'Hello World' Web App (6 of 10)
+### Creating A 'Hello World' Web App (Part 6 of 10)
 
 OK so it's just a page that says "Hello from Flask!" -- let's see if we can
 change your code to make it a little more interesting.
@@ -160,7 +160,7 @@ Once you're in the editor, click the right arrow below...
 ----
 
 
-### Creating A 'Hello World' Web App (7 of 10)
+### Creating A 'Hello World' Web App (Part 7 of 10)
 
 You should now see the code for the super-simple Flask app that has been
 generated for you in an editor window at the bottom of the screen.  As you'd
@@ -179,7 +179,7 @@ it to show up you need to do two things:
 
 ----
 
-### Creating A 'Hello World' Web App (8 of 10)
+### Creating A 'Hello World' Web App (Part 8 of 10)
 
 
 Go check out your new changes! Congratulations, you've just written your first
@@ -190,7 +190,7 @@ The first hint is for beginners, the second for experts...
 
 ----
 
-### Creating A 'Hello World' Web App (9 of 10)
+### Creating A 'Hello World' Web App (Part 9 of 10)
 
 *If you're an experienced Python web developer, just hit the right
 arrow to skip this.*
@@ -244,7 +244,7 @@ programmed before then it's probably not such a good idea.  We've got
 ----
 
 
-### Creating A 'Hello World' Web App (10 of 10)
+### Creating A 'Hello World' Web App (Part 10 of 10)
 
 If you're an experienced Python developer, then you probably already have a
 favourite web framework.  If it's Django, web2py, Bottle or Flask, you're in

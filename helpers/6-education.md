@@ -18,14 +18,18 @@ one -- go to the [Help page](/wiki/))
 
 This page is your **Dashboard** -- your students will have one just like it.
 
-Right now, we're on the **Consoles** tab, from which you
-can launch interactive Python consoles, as well as a special type of console
-called a **Bash** console, which is PythonAnywhere's main command-line console.
-Try that now.
+From here, you can access most of PythonAnywhere's features, including:
+
+1. **Consoles**: This is where you can type commands and see the result immediately. Python consoles just run Python, whereas Bash consoles (sometimes called the command line or terminals) are for system commands.
+2. **Files**: If you want to write a program, you'll need to create a file to save it and then to run that file afterwards.
+3. There are also **Notebooks**, **Web Apps**, and other features.
+
+
+For now, let's start a bash console. Find the `$ Bash` button under the Consoles section and click it.
 
 ----
 
-In your Bash console, type:
+This should take you to a new page. In your Bash console, type:
 
     python3.6
     >>> print("Hello world")
@@ -38,26 +42,23 @@ Consoles are all very well, but often we want to save code to a file
 using a text editor.  PythonAnywhere has a Python-specific text editor
 built in.  Let's go check it out now.
 
-Go back to the Dashboard by clicking the PythonAnywhere logo above, then
-click through to the **Files** tab.
+Go back to the Dashboard by clicking the PythonAnywhere logo above, click on the `Open another file` button under the Recent Files section.
 
-Type *hello.py* into the input box that says "enter a new file name",
-and hit Enter.
+Type */home/<your-username>/hello.py* into the dialog box that pops up and create a new file.
 
 ----
 
 That should have opened up a text editor. Let's try using it to
-write some more Python code
+write some more Python code:
 
     from datetime import datetime
     print("Hello, the time is {}".format(datetime.now()))
 
 
-You can save your file, and if you wanted to you could go back
-to a Bash console and run it from the command-line with 
-`python3.6 hello.py`.  But there's a shortcut right on this
-page -- click the "Save and Run" button (the black one with the three python
-chevrons, **>>>**)
+You can save your file, and if you wanted to you could go back to a Bash
+console and run it from the command-line with `python3.6 hello.py`. But there's
+a shortcut right on this page -- click the light blue button that says `>>>
+Run` to save and run your file.
 
 > (you may need to hit "allow popups" in your browser, then try a second time
 > to see the new console appear)
@@ -70,7 +71,8 @@ features.
 
 For this you'll need to open up a new "Private browsing" session in your web
 browser, because we're going to create a "fake" student account, and set you
-up to be its teacher.
+up to be its teacher. You could also do this on a separate browser where you
+are not signed in.
 
 You'll need to jump between this window and the private browsing session, to
 continue following these instructions
