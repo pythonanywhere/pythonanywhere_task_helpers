@@ -20,17 +20,18 @@ Click the right arrow when you're ready.
 ----
 
 
-This page is your **Dashboard**.  It has an overview of all your stuff on 
+This page is your **Dashboard**.  It has an overview of all your stuff on
 PythonAnywhere, but you can also access more functionality via the
 individual tabs named "Consoles","Files", and so on, above.  We'll have
 a look at the most important ones shortly.
-<p>
+
 You can get to the Dashboard from anywhere you are in PythonAnywhere using the
 link near the top right of the page, or by clicking the PythonAnywhere logo in the top left.
 
 ----
 
-Click on the **3.6** link just just under the **Start new console** heading;
+Click on the ">>> Python" button in the "Recent consoles" section below and to the
+left, then on the **3.6** button in the menu that appears;
 this will start Python version 3.6, which is a good version to start off with.
 After a little while, you should see a console with a "prompt" that looks like
 this:
@@ -62,18 +63,17 @@ the interpreter.
 
 For that, we need to learn about files on PythonAnywhere.
 
-Return to your **Dashboard** by clicking the link at the top right of the page,
-or by clicking the PythonAnywhere logo at the top left.
+Return to your **Dashboard** by clicking the PythonAnywhere logo at the top left.
 
 ----
 
 To create a more permanent program, we'll need to create a file to hold it.
-Click on the **Files** tab below.
+Click on the **Files** link above and to the right.
 
 You are now looking at your home directory on PythonAnywhere.
 
 To create a Python file, type `helloworld.py` into the text box that says
-`Enter new file name` then click the **New** button next to it.
+`Enter new file name` then click the **New file** button next to it.
 
 ----
 
@@ -82,8 +82,8 @@ that will be saved in files. Type this into it:
 
     print("Hello, world. Again")
 
-Click "Run" at the top right to save and run your program.  A console should appear
-beneath the editor, running your code.  Now  you can make changes, and hit 
+Click ">>> Run" at the top right to save and run your program.  A console should appear
+beneath the editor, running your code.  Now  you can make changes, and hit
 "Run" again at any time to see what happened.
 
 ----
@@ -93,7 +93,7 @@ Python. There are a number of extremely good tutorials on the web and you
 should now be able to follow them on PythonAnywhere. Here are some of our favorites:
 
  * [The Official Python Tutorial](https://docs.python.org/3/tutorial/) (You can skip sections 1 and 2)
- * [Think Python](http://greenteapress.com/wp/think-python-2e/) 
+ * [Think Python](http://greenteapress.com/wp/think-python-2e/)
 
 There is also [a big list of python tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) on the Python wiki.
 
