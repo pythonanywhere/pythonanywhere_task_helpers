@@ -7,8 +7,6 @@ glyphicons_137_computer_service@2x.png
 
 ### Deploying A Local Web App (Part 1 of 7)
 
-**Welcome to PythonAnywhere!**
-
 Up here you will see instructions walking you through the process of creating a
 Python web application. You can go forward and back through the steps using the
 arrow buttons below, and you can finish at any time by clicking the cross in
