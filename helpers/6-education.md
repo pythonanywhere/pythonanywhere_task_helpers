@@ -5,10 +5,7 @@ glyphicons_074_cup@2x.png
 
 ----
 
-**Welcome to PythonAnywhere!**  Up here you will see instructions
-walking you through the key features of our Education beta.
-
-----
+Up here you will see instructions walking you through the key features of our Education beta.
 
 (If after closing this helper, you want to go through it again -- or try another
 one -- go to the [Help page](/wiki/))
