@@ -5,7 +5,6 @@ glyphicons_268_keyboard_wireless@2x.png
 
 ----
 
-**Welcome to PythonAnywhere!**
 Up here you will see instructions that will walk you through the basic use of
 PythonAnywhere and some very basic Python programming to get you started.
 
