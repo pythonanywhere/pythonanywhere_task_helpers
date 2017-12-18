@@ -29,11 +29,11 @@ by clicking the PythonAnywhere logo in the top left.
 
 ----
 
-Click on the ">>> Python" button in the "Recent consoles" section below and to the
-left, then on the **3.6** button in the menu that appears;
-this will start Python version 3.6, which is a good version to start off with.
-After a little while, you should see a console with a "prompt" that looks like
-this:
+Click on the ">>> Python" button in the "New console" section below (underneath
+the Recent Consoles section), then on the **3.6** button in the menu that
+appears; this will start Python version 3.6, which is a good version to start
+off with. After a little while, you should see a console with a "prompt" that
+looks like this:
 
     >>>
 
