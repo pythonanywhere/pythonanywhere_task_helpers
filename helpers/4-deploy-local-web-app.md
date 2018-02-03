@@ -103,7 +103,7 @@ Once it's finished, you'll be shown a page with the configuration options for yo
 If you're using a virtualenv, enter the path to it into the appropriate field near the top.
 
 Next we'll want to edit the WSGI file which has been generated for you.
-Click through to it (there's a link inthe "Code" section), and take a look at the
+Click through to it (there's a link in the "Code" section), and take a look at the
 comments, which provide some examples for how to get your app imported.  The main
 steps are:
 
