@@ -15,8 +15,9 @@ Hit next to find out more.
 
 In brief, the differences are:
 
-* Our default versions of Django are a little out of date. In order to use the nice,
-shiny new Django 1.7, you'll need to use a virtualenv.
+* The version of Django that you've written your code for might not be the version
+  we have installed by default; the best way to use the exact version you want is
+  to set up a virtualenv.
 
 * `manage.py runserver` and *localhost:8000* won't work on PythonAnywhere,
   because our console servers aren't accessible from the outside world.
