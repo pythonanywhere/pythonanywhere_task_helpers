@@ -209,10 +209,8 @@ quick setup support for:
 
 * [Django](https://www.djangoproject.com/) is probably the most popular
 framework in general. It's not necessarily the easiest to use, but there's a
-lot to it.  There's
-[a short Django/PythonAnywhere tutorial here](https://www.pythonanywhere.com/wiki/DjangoTutorial),
-and we also have
-[hints on how to follow the official Django tutorial using PythonAnywhere](https://www.pythonanywhere.com/wiki/FollowingTheDjangoTutorial).
+lot to it.  We have
+[hints here on how to follow the official Django tutorial using PythonAnywhere](https://help.pythonanywhere.com/pages/FollowingTheDjangoTutorial).
 If you'd prefer an independent tutorial, we highly recommend
 [Django Girls](http://tutorial.djangogirls.org) and
 [Tango with Django](http://www.tangowithdjango.com/).

@@ -30,7 +30,7 @@ In brief, the differences are:
   want to see the effects of code changes on your site.
 
 That's ultra-brief overview.  For detailed instructions, check out the
-[Following the Django Tutorial on PythonAnywhere](https://www.pythonanywhere.com/wiki/FollowingTheDjangoTutorial)
+[Following the Django Tutorial on PythonAnywhere](https://help.pythonanywhere.com/pages/FollowingTheDjangoTutorial)
 wiki page.
 
 To close this helper, just click the **x** to the top right.

@@ -40,7 +40,7 @@ showing a bash console in your browser.
 You can now clone your GitHub project by typing: `git clone
 <repo URL from GitHub>` into the console. If you want to copy and
 paste the repo URL, here's
-[how to copy/paste into the console](https://www.pythonanywhere.com/wiki/CopyAndPaste).
+[how to copy/paste into the console](https://help.pythonanywhere.com/pages/CopyAndPaste).
 Use the **https** URL if you haven't set up SSH keys on PythonAnywhere;
 the process for setting up SSH keys here is just the same as it
 is on a Linux machine -- see

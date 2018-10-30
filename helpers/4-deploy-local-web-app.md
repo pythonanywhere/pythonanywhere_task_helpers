@@ -51,7 +51,7 @@ or Github, then all you need to do is open a **Bash console** and do a
 `git clone`.
 
 Have a look at the
-[help page for getting code in and out of PythonAnywhere](https://www.pythonanywhere.com/wiki/FTP)
+[help page for getting code in and out of PythonAnywhere](https://help.pythonanywhere.com/pages/UploadingAndDownloadingFiles)
 for more info.
 
 Once you've uploaded your code, you can resume this guide.
@@ -69,7 +69,7 @@ for details of exactly what we have installed for each Python version.
 If the modules you need are already there, then great!  You can skip this step.
 
 If not, you'll need to set up a virtualenv. Check out these
-[instructions for setting a virtualenv](https://www.pythonanywhere.com/wiki/Virtualenvs),
+[instructions for setting a virtualenv](https://help.pythonanywhere.com/pages/Virtualenvs),
 and modify the steps as appropriate for your own dependencies.
 
 When you've built your virtualenv, make a note of its path. They often live at */home/myusername/.virtualenvs/virtualenvname*
