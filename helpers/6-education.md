@@ -28,7 +28,7 @@ For now, let's start a bash console. Find the `$ Bash` button under the Consoles
 
 This should take you to a new page. In your Bash console, type:
 
-    python3.6
+    python3.8
     >>> print("Hello world")
 
 You'll see Python works the way you expect it to. Press Ctrl+D to exit.
@@ -53,7 +53,7 @@ write some more Python code:
 
 
 You can save your file, and if you wanted to you could go back to a Bash
-console and run it from the command-line with `python3.6 hello.py`. But there's
+console and run it from the command-line with `python3.8 hello.py`. But there's
 a shortcut right on this page -- click the light blue button that says `>>>
 Run` to save and run your file.
 
