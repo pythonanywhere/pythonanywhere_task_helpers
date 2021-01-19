@@ -80,7 +80,7 @@ In the private browsing tab, sign up for a second PythonAnywhere account.  You
 can use the same email address as your main account if you like.
 
 Once the account has been created, click through to its **Account** page, and
-find the **Teacher** tab.  Enter your main account's username into this field,
+find the **Education** tab.  Enter your main account's username into this field,
 and hit enter.
 
 ----
