@@ -57,9 +57,6 @@ console and run it from the command-line with `python3.8 hello.py`. But there's
 a shortcut right on this page -- click the light blue button that says `>>>
 Run` to save and run your file.
 
-> (you may need to hit "allow popups" in your browser, then try a second time
-> to see the new console appear)
-
 ----
 
 So far, those were all basic PythonAnywhere features that any
