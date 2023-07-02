@@ -28,7 +28,7 @@ individual links named "Consoles","Files", and so on, above and to the right.
 You can get to the Dashboard from anywhere you are in PythonAnywhere
 by clicking the PythonAnywhere logo in the top left.
 
-Web applications are (naturally enough) configured the **Web** section. To go
+Web applications are (naturally enough) configured in the **Web** section. To go
 there, click the "Open Web tab" button in the "All Web apps" section below,
 then click the right arrow to move on to the next step.
 
