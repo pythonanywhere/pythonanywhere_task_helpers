@@ -125,9 +125,9 @@ directly mounted into your own files area.
 
 You can return to your own dashboard by clicking the main
 PythonAnywhere logo, or by selecting your username from the dropdown in the
-dark line at the top.  Once you're on your dashboard, go back to your Bash console, or open a new one
-if necessary. Type `ls /home`, and you should see your own username, and your
-student's username.
+dark line at the top.  Once you're on your dashboard, go to the "Consoles" page,
+and start a new Bash console.  In there, type `ls /home` -- you should see your
+own username, and your student's username.
 
     >>> # press ctrl-d if you're still in a Python prompt
 
