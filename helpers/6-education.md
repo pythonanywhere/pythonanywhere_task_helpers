@@ -171,9 +171,6 @@ with each other, and no doubt all sorts of other stuff that we haven't
 anticipated.
 
 Go check out [the wiki](https://help.pythonanywhere.com/pages/Education) for more information, and be sure
-to send us feedback and suggestions for improvements and new features!  We'd
+to send us feedback and suggestions for improvements and new features on [our forums](/forums/)!  We'd
 love to hear from you.
-
-[support@pythonanywhere.com](mailto:support@pythonanywhere.com)
-
 
