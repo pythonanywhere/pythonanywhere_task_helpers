@@ -51,7 +51,7 @@ and take a look at what comes up...
 **New Web App Wizard**
 
 The first thing to do is to choose what the domain name for
-your web app will be. If you have a Beginner (free)  account,
+your web app will be. If you have a free account,
 there's no choice, your app is hosted at *yourusername*`.pythonanywhere.com`.
 If you have a paid account, then you have the option
 to specify your own domain as well as a checkbox to use a subdomain
